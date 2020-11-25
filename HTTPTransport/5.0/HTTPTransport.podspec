@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/petropavel13/http-transport.git", :tag => s.version, :branch => "master" }
   s.source_files = "Source/HTTPTransport/HTTPTransport/Classes/**/*"
   s.requires_arc = true
-  s.dependency "Alamofire", '~> 5.2'
+  s.dependency "Alamofire", '~> 5'
 end
