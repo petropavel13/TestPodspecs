@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'TISwiftUtils', s.version.to_s
   s.framework = 'Foundation'
+  s.weak_framework = 'CryptoKit'
 end
