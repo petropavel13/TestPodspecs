@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
   s.source_files = s.name + '/Sources/**/*'
 
   s.dependency 'TIFoundationUtils', s.version.to_s
+  s.dependency 'TILogging', s.version.to_s
   s.dependency 'Alamofire', "~> 5.4"
 end
