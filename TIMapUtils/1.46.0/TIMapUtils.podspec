@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
     s.exclude_files = s.name + '/*.app'
   end
 
-  s.dependency 'TIFoundationUtils', s.version.to_s
+  s.dependency 'TILogging', s.version.to_s
 
 end
