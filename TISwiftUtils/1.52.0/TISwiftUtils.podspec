@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'TISwiftUtils'
   s.version          = '1.52.0'
   s.summary          = 'Bunch of useful helpers for Swift development.'
-  s.homepage         = 'https://git.svc.touchin.ru/TouchInstinct/LeadKit/tree/' + s.version.to_s + '/' + s.name
+  s.homepage         = 'https://git.svc.touchin.ru/TouchInstinct/LeadKit/src/tag/' + s.version.to_s + '/' + s.name
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'petropavel13' => 'ivan.smolin@touchin.ru' }
   s.source           = { :git => 'https://git.svc.touchin.ru/TouchInstinct/LeadKit.git', :tag => s.version.to_s }
